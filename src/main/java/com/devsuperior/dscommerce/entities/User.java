@@ -103,6 +103,7 @@ public class User implements UserDetails {
     public Set<Role> getRoles() {
 		return roles;
 	}
+      
     // Insert a role for a user
 
     public void addRole(Role role) {
